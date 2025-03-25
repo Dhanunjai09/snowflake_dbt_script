@@ -1,0 +1,11 @@
+sources:
+  - name: src_test
+    database: DBT_DB
+    schema: DBT_SC
+    tables:
+      - name: TEST
+  - name: src_blinkit
+    database: DHANU_DEV_DB
+    schema: DHANU_DEV_SC
+    tables:
+      - name: blinkit_grocery_data_dev_t
